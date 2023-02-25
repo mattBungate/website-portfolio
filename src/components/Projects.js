@@ -1,8 +1,5 @@
 import { Container, Col, Row, Tab, Nav, Image } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import truckDronePlot from '../assets/img/30-Customer-plot.png';
 import truckDroneGif from '../assets/gif/30C-1T-3D-1_25SR-50LIM.gif';
 import colorSharp2 from "../assets/img/color-sharp2.png";

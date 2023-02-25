@@ -2,9 +2,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import researchOpsImg from "../assets/img/research-operations-logo.png";
-import MLImg from "../assets/img/machine-learning-logo.png";
-import tutoringImg from "../assets/img/meter3.svg";
-import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
     const responsive = {
@@ -42,11 +39,11 @@ export const Skills = () => {
                                     <h5>Research Operations</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={MLImg} alt="Image" />
+                                    <img src='' alt="Image" />
                                     <h5>Machine Learning</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={tutoringImg} alt="Image" />
+                                    <img src='' alt="Image" />
                                     <h5>Tutoring</h5>
                                 </div>
                             </Carousel>
